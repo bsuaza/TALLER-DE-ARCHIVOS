@@ -1,5 +1,7 @@
 # TALLER-DE-ARCHIVOS
 Estudiante: Jhony patiño alvira
+            David villamil
+            Nico s
 
 Informacion basica para ejecutar el programa:
 
@@ -14,11 +16,6 @@ Ejecutar los siguientes comandos para instalar las librerias:
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-
-
-
-
-
 
 
 TALLER DE ARCHIVOS
