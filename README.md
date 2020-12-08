@@ -1,6 +1,6 @@
 # TALLER-DE-ARCHIVOS
 Estudiante: Jhony patiño alvira
-            David villamil
+            David Felipe Villamil Moscoso
             Nico s
 
 Informacion basica para ejecutar el programa:
