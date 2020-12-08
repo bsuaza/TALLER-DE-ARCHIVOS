@@ -1,0 +1,35 @@
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+
+url='https://www.bbc.com/mundo/noticias/2016/03/160315_salud_huerto_domestico_5_verduras_lb'
+page= requests.get(url)
+soup= BeautifulSoup(page.content,'html.parser')
+
+eq=soup.find_all('h2')
+
+titulos= list()
+contador=0
+for i in eq:
+    if contador<5:
+        titulos.append(i.text)
+    else:
+        break
+    contador+=1
+
+
+
+eq2=soup.find_all('p')
+
+titulos2= list()
+contador=0
+for i in (eq2):
+    if contador<5 :
+        titulos2.append(i.text)
+    else:
+        break
+    contador+=1
+
+
+print(titulos2)
+print(titulos)
