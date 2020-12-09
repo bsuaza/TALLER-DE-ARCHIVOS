@@ -1,7 +1,7 @@
 # TALLER-DE-ARCHIVOS
 Estudiante: Jhony patiño alvira
             David villamil
-            Nico s
+            Nicolas Suaza
 
 Informacion basica para ejecutar el programa:
 
